@@ -1,0 +1,210 @@
+body{
+    background: rgb(35, 34, 34);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.seccion{
+    display: flex;
+    width: 1900px;
+    height: 1110px;
+    margin: 0 auto; /*centrar la seccion*/
+}
+/*Imagenes queden en todo el cuaro*/
+.seccion img{
+    width: 271px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    height: 100%;
+}
+
+/*agrandar la imagen especialmente el width*/
+.seccion img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+a{
+    color: none;
+    text-decoration: none;
+}
+
+.Jonathan{
+    background: rgba(119, 4, 176, 0.604);
+    box-shadow: 0 0 35px rgb(174, 0, 255);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.Jonathan h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Jonathan p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Jonathan li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Joseph{
+    background: rgba(4, 176, 44, 0.604);
+    box-shadow: 0 0 35px rgb(0, 255, 8); /*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px; 
+}
+.Joseph h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Joseph p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Joseph li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Jotaro{
+    background: rgba(4, 176, 173, 0.604);
+    box-shadow: 0 0 35px rgb(0, 251, 255);/*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.Jotaro h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Jotaro p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Jotaro li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Josuke{
+    background: rgba(167, 176, 4, 0.604);
+    box-shadow: 0 0 35px rgb(255, 255, 0);/*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.Josuke h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Josuke p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Josuke li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Giorno{
+    background: rgba(176, 4, 56, 0.604);
+    box-shadow: 0 0 35px rgb(255, 0, 85);/*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.Giorno h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Giorno p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Giorno li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Jolyne{
+    background: rgba(4, 61, 176, 0.604);
+    box-shadow: 0 0 35px rgb(0, 89, 255);/*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.Jolyne h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Jolyne p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Jolyne li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.Johnny{
+    background: rgba(139, 4, 176, 0.604);
+    box-shadow: 0 0 35px rgb(174, 0, 255);/*poner una sombra del todo el entorno*/
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.Johnny h2{
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.Johnny p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.Johnny li{
+    color: white;
+    font-size: 19px;
+    font-family: 'Georgia';
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.pie{
+    background: rgba(0, 0, 0, 0.612);
+    font-size: 25px;
+    font-family: 'Arial';
+    text-align: center;
+    box-shadow: 0 0 35px rgb(255, 255, 255);
+}
+
+.pie h2{
+    color: white;
+}
